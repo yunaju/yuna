@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../portfolio_ex"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "포폴수정"
+	}
+}

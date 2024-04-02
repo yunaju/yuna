@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JU YUNA Portfolio</title>
+  
+    <meta name="robots" content="All">
+    <meta name="Yeti" content="index, follow">
+    <meta name="Yeti" content="All">
+    <meta name="googlebot" content="All">
+    <meta name="googlebot" content="index, follow">
+    <meta name="daumoa" content="All">
+    <meta name="daumoa" content="index, follow">
+    <meta name="title" content="그래픽디자이너 - 주유나 포트폴리오">
+    <meta name="description" content="그래픽 디자이너 주유나입니다. 포트폴리오 방문을 환영">
+    <meta name="keywords" content="모션그래픽, 영상, 3D그래픽 대구 디자이너">
+    <meta name="author" content="주유나">
+    <meta name="content-language" content="kr">
+
+  
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="yuna">
+    <meta property="og:title" content="YUNA"> 
+    <meta property="og:description" content="YUNA's portfolio"> 
+    <meta property="og:image" content="img/yuna.png"> 
+    <meta property="og:image:width" content="400"> 
+    <meta property="og:image:height" content="300"> 
+    
+
+
+
+
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script src="js/jquery.fullpage.js"> </script>
+    <script src="js/main.js" defer> </script>
+    <script src="js/main2.js" defer> </script>
+
+    <style>
+        .moving-poster {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+        }
+        .moving-poster .slide {
+            flex: 0 0 100%;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <div class="wrap">
+    <header>
+        <div class="container">
+            <h1>
+                <button data-animation-scroll="true" data-target="#main">YUNA</button>
+            </h1>
+            <div id="navbar">
+                <a href="#profile">PROFLIE</a>
+                <a href="#video">VIDEO</a>
+                <a href="#motion">MOTION GRAPHIC</a>
+                <a href="#poster">MOVING POSTER</a>
+                <a href="#graphic">GRAPHIC</a>
+            </div>
+        </div>
+    </header>
+    <!-- ------------------------------------------------------------- -->
+    <main>
+        <div class="main-container">
+            <div class="inner">
+                <div class="title-inner">
+                    <img src="img/TITLE.png" alt="title">
+                </div>
+                <img src="img/grass.png" alt="메인">
+            </div>
+        </div>
+    </main>
+            <section id="profile" class="item">
+                <div class="container">
+                    <div class="title">
+                        <h1>PROFILE</h1>
+                    </div>
+                    <div class="clipboard">
+                        <img src="img/chat2.png" alt="차트">
+                    </div>
+                    
+                </div>
+            </section>
+       
+            <!-- ---------------------------------- -->
+            <section id="video" class="item">
+                <h1>VIDEO</h1>
+                <div class="container">
+                    <video width="1080" height="720" controls>
+                        <source src="img/geometry motion graphic [모션그래픽].mp4" type="video/mp4">
+                    </video>
+                </div>
+            </section>
+               
+               <section id="motion" class="item">
+                <h1>MOTION GRAPHIC</h1>
+                <div class="container">
+                    <video width="1080" height="720" controls>
+                        <source src="img/geometry motion graphic [모션그래픽].mp4" type="video/mp4">
+                    </video>
+                </div>
+               </section>
+               
+               <section id="poster" class="item">
+                <div class="slide" id="slide1">
+                    <h1>MOVING POSTER</h1>
+                    <!-- Your content for slide 1 -->
+                    <div class="container">
+                        <div class="poster-inner" id="poster1">
+                            <img src="img/poster4.gif" alt="무빙1">
+                        </div>
+                        <div class="poster-inner" id="poster2">
+                            <img src="img/poster2.gif" alt="무빙2">
+                        </div>
+                        <div class="poster-inner" id="poster3">
+                            <img src="img/poster3.gif" alt="무빙3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            </section>
+
+            <section id="graphic" class="item">
+                <h1>GRAPHIC</h1>
+                <div class="container">
+                    <div class="graphic-inner">
+                        <img src="img/graphic.png" alt="표지">
+                    </div>
+
+                </div>
+           </section>
+        
+            <section id="g2d" class="item">
+                <h1>2D GRAPHIC</h1>  
+                <div class="container">
+                    <div class="d2graphic-inner">
+                        <img src="img/graphic1.jpg" alt="그래픽1">
+                        <strong>GRAPHIC</strong>
+                    </div>
+                    <div class="d2graphic-inner">
+                        <img src="img/graphic2.jpg" alt="그래픽1">
+                        <strong>GRAPHIC</strong>
+                    </div>
+                    <div class="d2graphic-inner">
+                        <img src="img/graphic3.jpg" alt="그래픽1">
+                        <strong>GRAPHIC</strong>
+                    </div>
+                </div>  
+           </section>
+           <section id="g3d" class="item">
+                <div class="title">
+                    <h1>3D GRAPHIC</h1> 
+                </div>
+                <div class="container">
+                          <div class="g3d-inner">
+                            <img src="img/3d_1.png" alt="포장지">
+                            <div class="png">
+                                <img src="img/3d-1-(1).png" alt="쓸디" class="thumbnail" data-description="깜찍하고 통통한 여우다.">
+                            </div>
+                            <strong>TITLE</strong>
+                          </div>
+                          <div class="g3d-inner">
+                            <img src="img/3d_2.png" alt="포장지2">
+                            <div class="png">
+                                <img src="img/3d-1-(1).png" alt="쓸디" class="thumbnail" data-description="깜찍하고 통통한 여우다.">
+                            </div>
+                            <strong>TITLE</strong>
+                          </div>
+                          <div class="g3d-inner">
+                            <img src="img/3d_3.png" alt="포장지3">
+                            <div class="png">
+                                <img src="img/3d-1-(1).png" alt="쓸디" class="thumbnail" data-description="깜찍하고 통통한 여우다.">
+                            </div>
+                            <strong>TITLE</strong>
+                          </div>
+                </div>
+           </section>
+           <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="modal-description"></p>
+            </div>
+        </div>
+        </div>
+        <!-- ------------------------------------------------ -->
+    
+    </div>
+    <footer>
+        <div class="inner fp-auto-height">
+            <p>Ju Yuna</p>
+            <p>wndbsk0419@naver.com</p>
+        </div>
+    </footer>
+
+    </script>
+</body>
+</html>

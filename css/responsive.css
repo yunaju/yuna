@@ -1,0 +1,11 @@
+@media screen and (max-width: 1140px){
+    main .main-container{
+        width: 1140px;
+        margin: 0 auto;
+    }
+    .title-inner{
+        
+    }
+
+
+}
